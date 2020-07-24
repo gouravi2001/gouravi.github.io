@@ -1,0 +1,234 @@
+body{
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+#sec1{
+  height:100%;
+  background-image: url(images/images3.jpg);
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  box-sizing: border-box;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height:100px;
+  background:rgba(0,0,0,0.5);
+  text-align: center;
+}
+.logo img{
+  height: 80px;
+  border-radius: 5px;
+  margin: 10px;
+  float: left;
+}
+.nav-links{
+  display:flex;
+  float:right;
+  margin:40px;
+  justify-content: space-around;
+  width: 45%;
+  list-style: none;
+
+}
+.nav-links a{
+  color:#fff;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.nav-links li:hover{
+  color:blue
+}
+.nav-links a:hover{
+  text-decoration: none;
+}
+.text{
+  background: rgba(0,0,0,0.7);
+  width:100%;
+  height:300px;
+  position: absolute;
+  top:38%;
+  color:#fff;
+}
+.text h1{
+  margin-top: 80px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.animate{
+  color:#0198e1;
+}
+#sec2{
+  padding:50px 0;
+  background: black;
+}
+.quote{
+  width:80%;
+  height:45px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-image: linear-gradient( 109.6deg,  rgba(54,10,231,1) 11.2%, rgba(25,253,249,1) 100.2% );
+}
+.quote p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align:center;
+  padding-top:5px;
+  letter-spacing: 5px;
+}
+#about-me{
+  background: black;
+  padding:20px 0;
+}
+.college-details{
+  box-shadow: 0 2px 70px 0 rgba(110,130,208,.18);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.college-update{
+  background: #fff;
+  padding:10px 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#about-me h5{
+  color: #fff;
+}
+.college-update .fa{
+  margin-top: 5px;
+  margin-right: 10px;
+  color:#0198e1;
+}
+.college-update small{
+  background: #efefef;
+  padding:1px 5px;
+  margin: 0 5px;
+}
+.college-update p{
+  margin-bottom: 0 !important;
+}
+
+.apply-btn{
+  height: 40px;
+  background-image: linear-gradient( 109.6deg,  rgba(54,10,231,1) 11.2%, rgba(25,253,249,1) 100.2% );
+  padding: 7px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.progress{
+  margin-bottom:10px;
+}
+#Contact-me{
+  height:100%;
+  background-color: black;
+  background-image: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(images/images4.jpg);
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+}
+.contact-title{
+  color:#fff;
+  transition: all 4s ease-in-out;
+
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-title h3{
+  line-height: 10px;
+  font-size: 28px;
+  padding-top: 100px;
+}
+.contact-title h4{
+  font-size:25px;
+  margin-top:20px;
+}
+
+
+form{
+  margin-top:50px;
+  transition: all 4s ease-in-out;
+
+}
+.form-control{
+  width:600px !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid white !important;
+  font-size: 18px !important;
+  margin-bottom: 16px !important;
+  justify-content: center !important;
+  box-shadow: none !important;
+  color:#fff !important;
+}
+input{
+  height: 45px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+textarea{
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+form .submit{
+  background-image: linear-gradient( 109.6deg,  rgba(54,10,231,1) 11.2%, rgba(25,253,249,1) 100.2% ) !important;
+  border-color: transparent !important;
+  color:#fff;
+  font-size: 20px !important;
+  font-weight:bold;
+  letter-spacing: 2px;
+  height:50px;
+  margin-top:20px !important;
+  text-align: center !important;
+}
+.contact-more h4{
+  color:yellow;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.contact-more h5{
+  color:#fff;
+}
+.contact-more .fa{
+  color:#fff;
+  margin-right: 10px;
+}
+#footer{
+  background: black;
+  padding:50px 0;
+}
+.footer-block{
+  background-image: linear-gradient( 109.6deg,  rgba(54,10,231,1) 11.2%, rgba(25,253,249,1) 100.2% ) !important;
+  height:100px;
+}
+.footer-block img{
+  float:left;
+  height:80px;
+  margin:10px;
+  border-radius: 10px;
+}
+.footer-block p{
+  position: absolute;
+  right:0;
+  font-size:20px;
+  margin-top:30px;
+  margin-right:10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+.footer-block .fa{
+  color:red;
+}
